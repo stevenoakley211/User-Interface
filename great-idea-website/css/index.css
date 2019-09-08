@@ -64,3 +64,104 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.nav-box{
+	display: inline-block;
+	/* border: 2px solid red; */
+    margin: 1%;
+	width: 100%;
+	vertical-align: middle;
+}
+	.nav-bar {
+	display: inline-block;
+	/* border: 2px solid black; */
+    margin: 1%;
+    padding: 1%;
+	width: 61%;
+	vertical-align: middle;
+}
+nav a {
+	margin:3%;
+	text-decoration: none;
+	color: grey;
+
+}
+.logo {
+	display:inline;
+	text-align: right;
+	margin-left:5%;
+	margin-right: 0%;
+	
+	padding: 0%;
+	width:29%;
+	vertical-align: center;
+	
+
+}
+.outer-box{
+	/* border: 2px solid red; */
+    margin: 1%;
+    width: 100%;
+}
+.left-box{
+	/* border: 2px solid blue; */
+    display: inline-block;
+	vertical-align: top;
+    margin: 1%;
+    width: 45%;
+	min-width: 250px;
+	
+}
+.right-box{
+	/* border: 2px solid blue; */
+    display: inline-block;
+	vertical-align: top;
+    margin: 1%;
+    width: 45%;
+    min-width: 250px;
+}
+
+html, body{
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+
+.triple-box {
+    /* comment out border when done testing */
+    /* border: 2px solid blue; */
+    display: inline-block;
+    /* if you want a margin of a certain % for equal-sized
+        boxes then follow this forumla:
+        Box Width = (100 - ((margin% * # of boxes) * 2)) / (# of boxes)
+        Example: Box Width = (100 - (1 * 2)) / 4 = 23%
+        So if you have 4 equal sized boxes with a margin
+        of 1% your box width will be 23% for dynamic sizing
+    */
+    margin: 1%;
+    width: 30%;
+    min-width: 150px;
+}
+section  p {
+	text-align:center;
+}
+.middle-img{
+width: 98%;
+}
+.contact-box{
+	/* border: 2px solid blue; */
+    display: inline-block;
+	text-align: left;
+    margin: 1%;
+    width: 45%;
+	min-width: 250px;
+	
+}
+.centered {
+	text-align: center;
+}
