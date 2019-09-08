@@ -66,18 +66,16 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 .nav-box{
 	display: inline-block;
-	/* border: 2px solid red; */
     margin: 1%;
 	width: 100%;
 	vertical-align: middle;
 }
-	.nav-bar {
+.nav-bar {
 	display: inline-block;
-	/* border: 2px solid black; */
-    margin: 1%;
-    padding: 1%;
-	width: 61%;
-	vertical-align: middle;
+	vertical-align: top;
+	margin: 2%;
+	width: 55%;
+	min-width: 250px;
 }
 nav a {
 	margin:3%;
@@ -86,38 +84,32 @@ nav a {
 
 }
 .logo {
-	display:inline;
 	text-align: right;
-	margin-left:5%;
-	margin-right: 0%;
-	
-	padding: 0%;
-	width:29%;
-	vertical-align: center;
-	
-
+	width:75%;
 }
 .outer-box{
-	/* border: 2px solid red; */
-    margin: 1%;
-    width: 100%;
+	display:inline-block;
+	margin: 1%;
+	width: 100%;
 }
 .left-box{
-	/* border: 2px solid blue; */
+	
     display: inline-block;
 	vertical-align: top;
-    margin: 1%;
+	margin: 01%;
+	margin-left: 0%;
     width: 45%;
 	min-width: 250px;
-	
+	text-align: left;
 }
 .right-box{
-	/* border: 2px solid blue; */
     display: inline-block;
 	vertical-align: top;
-    margin: 1%;
+	margin: 1%;
+	margin-right: 0%;
     width: 45%;
-    min-width: 250px;
+	min-width: 250px;
+	text-align: left;
 }
 
 html, body{
@@ -133,25 +125,18 @@ h1 {
 
 
 .triple-box {
-    /* comment out border when done testing */
-    /* border: 2px solid blue; */
+    
     display: inline-block;
-    /* if you want a margin of a certain % for equal-sized
-        boxes then follow this forumla:
-        Box Width = (100 - ((margin% * # of boxes) * 2)) / (# of boxes)
-        Example: Box Width = (100 - (1 * 2)) / 4 = 23%
-        So if you have 4 equal sized boxes with a margin
-        of 1% your box width will be 23% for dynamic sizing
-    */
     margin: 1%;
     width: 30%;
-    min-width: 150px;
+	min-width: 150px;
+	text-align: left;
 }
 section  p {
-	text-align:center;
+	text-align:left;
 }
 .middle-img{
-width: 98%;
+width: 94%;
 }
 .contact-box{
 	/* border: 2px solid blue; */
@@ -160,8 +145,37 @@ width: 98%;
     margin: 1%;
     width: 45%;
 	min-width: 250px;
-	
+}
+.contact-box a{
+	text-decoration: none;
 }
 .centered {
 	text-align: center;
+}
+.to-right {
+	text-align: right;
+}
+.middle {
+	vertical-align: center;
+}
+
+button {
+	background-color: white; 
+	border: solid;
+	/* color: white; */
+	padding: 8px 35px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+  }
+.nav-right {
+	width: 33%;
+	text-align: right;
+}  
+.to-left{
+	text-align: left;
+}
+.border{
+	border-bottom: 2px solid black;
 }
